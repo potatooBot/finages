@@ -33,21 +33,21 @@ export const features = [
     icon: star,
     title: "Rewards",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "ummy dummy DUmmy dummy dummy DUmmy dummy dummy DUmmy dummy dummy",
   },
   {
     id: "feature-2",
     icon: shield,
     title: "100% Secured",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "ummy dummy DUmmy dummy dummy DUmmy dummy dummy DUmmy dummy dummy",
   },
   {
     id: "feature-3",
     icon: send,
     title: "Balance Transfer",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "ummy dummy DUmmy dummy dummy DUmmy dummy dummy DUmmy dummy dummy",
   },
 ];
 
@@ -81,18 +81,18 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    title: "Our Customers",
+    value: "380+",
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
+    title: "Trusted by Many Businesses",
+    value: "20+",
   },
   {
     id: "stats-3",
     title: "Transaction",
-    value: "$230M+",
+    value: "₹200 Lakh+",
   },
 ];
 

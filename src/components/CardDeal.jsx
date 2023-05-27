@@ -1,4 +1,4 @@
-import { card } from "../assets";
+import { card,rupee } from "../assets";
 import styles, { layout } from "../style";
 import Button from "./Button";
 
@@ -14,11 +14,12 @@ const CardDeal = () => (
         aliquet eget mauris tortor.ç Aliquet ultrices ac, ametau.
       </p>
 
+     
       <Button styles={`mt-10`} />
     </div>
 
     <div className={layout.sectionImg}>
-      <img src={card} alt="billing" className="w-[100%] h-[100%]" />
+      <img src={rupee} alt="billing" className="w-[80%] h-[80%]" />
     </div>
   </section>
 );

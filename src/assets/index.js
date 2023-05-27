@@ -24,6 +24,7 @@ import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
 import finages_logo from "./finages_logo.png";
+import rupee from "./rupee.png";
 
 export {
   airbnb,
@@ -36,6 +37,7 @@ export {
   finages_logo,
   quotes,
   robot,
+  rupee,
   send,
   shield,
   star,

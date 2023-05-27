@@ -1,3 +1,4 @@
+import Datepicker from 'flowbite-datepicker/Datepicker';
 export default () => {
 
   return (
@@ -39,17 +40,46 @@ export default () => {
                               className="w-full mt-2 px-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-gray-800 shadow-sm rounded-lg"
                           />
                       </div>
+                    
+
+                      <div>
+                          <label className="font-medium">
+                              Average Monthly Income
+                          </label>
+                          <input
+                              type="number"
+                              placeholder="0-1,00,000"
+                              required
+                              className="w-full mt-2 px-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-gray-800 shadow-sm rounded-lg"
+                          />
+                      </div>
+                      
+<div class="relative max-w-sm">
+  <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+    <svg aria-hidden="true" class="w-5 h-5 text-gray-500 dark:text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
+  </div>
+  <input datepicker type="text" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Select date"/>
+</div>
+
+<div inline-datepicker data-date="02/25/2022"></div>
+
+
+                      <div>
+                          <label className="font-medium">
+                          Pan Number
+                          </label>
+                          <input
+                              type="number"
+                              placeholder="XXXXXXXXXX"
+                              required
+                              className="w-full mt-2 px-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-gray-800 shadow-sm rounded-lg"
+                          />
+                      </div>
                       <div>
                           <label className="font-large">
                               Phone number
                           </label>
                           <div className="relative mt-2">
-                              {/* <div className="absolute inset-y-0 left-3 my-auto flex items-center border-r pr-2">
-                                  <select className="text-sm bg-transparent outline-none rounded-lg h-full">
-                                      <option>91+</option>
-                                
-                                  </select>
-                              </div> */}
                               <input
                                   type="number"
                                   placeholder="Please Add Number"
@@ -59,21 +89,18 @@ export default () => {
                           </div>
                       </div>
                       
-<button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">Dropdown button <svg class="w-4 h-4 ml-2" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button>
+                      
+<button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" 
+class="text-white bg-gray-700 hover:bg-white-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2.5 text-center inline-flex items-center dark:bg-white-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">Select Occupation <svg class="w-4 h-4 ml-2" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button>
 <div id="dropdown" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
     <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
       <li>
-        <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
+        <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Self Employed</a>
       </li>
       <li>
-        <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Settings</a>
+        <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Salaried</a>
       </li>
-      <li>
-        <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Earnings</a>
-      </li>
-      <li>
-        <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Sign out</a>
-      </li>
+
     </ul>
 </div>
 

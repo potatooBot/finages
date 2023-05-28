@@ -14,16 +14,16 @@ export const navLinks = [
     title: "Credit Card",
   },
   {
-    id: "clients",
-    title: "Mortage",
+    id: "Contact",
+    title: "Contact Us",
   },
   {
     id: "business",
     title: "Business",
   },
   {
-    id: "business",
-    title: "Personal",
+    id: "Carrier",
+    title: "Carrier",
   },
 ];
 
@@ -122,31 +122,28 @@ export const footerLinks = [
       },
     ],
   },
-  {
-    title: "Community",
-    links: [
-      {
-        name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
-      },
-      {
-        name: "Partners",
-        link: "https://www.hoobank.com/partners/",
-      },
-      {
-        name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
-      },
-      {
-        name: "Blog",
-        link: "https://www.hoobank.com/blog/",
-      },
-      {
-        name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
-      },
-    ],
-  },
+  // {
+  //   title: "Community",
+  //   links: [
+  //     {
+  //       name: "Help Center",
+  //       link: "https://www.hoobank.com/help-center/",
+  //     },
+  //     {
+  //       name: "Partners",
+  //       link: "https://www.hoobank.com/partners/",
+  //     },
+  //     {
+  //       name: "Suggestions",
+  //       link: "https://www.hoobank.com/suggestions/",
+  //     },
+  //     {
+  //       name: "Blog",
+  //       link: "https://www.hoobank.com/blog/",
+  //     },
+   
+  //   ],
+  // },
   {
     title: "Partner",
     links: [
@@ -155,7 +152,7 @@ export const footerLinks = [
         link: "https://www.hoobank.com/our-partner/",
       },
       {
-        name: "Become a Partner",
+        name: "Join Us",
         link: "https://www.hoobank.com/become-a-partner/",
       },
     ],

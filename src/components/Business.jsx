@@ -1,7 +1,8 @@
 import { features } from "../constants";
 import styles, { layout } from "../style";
 import Button from "./Button";
-
+import { useNavigate } from "react-router-dom";
+import Contact from "./Contact";
 const FeatureCard = ({ icon, title, content, index }) => (
   <div className={`flex flex-row p-6 rounded-[20px] ${index !== features.length - 1 ? "mb-6" : "mb-0"} feature-card`}>
     <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue`}>
@@ -17,8 +18,10 @@ const FeatureCard = ({ icon, title, content, index }) => (
     </div>
   </div>
 );
+const Business = () =>  {
 
-const Business = () =>  (
+  return(
+    <>
   <section id="features" className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
@@ -28,8 +31,10 @@ const Business = () =>  (
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
      DUmmy dummy dummy  DUmmy dummy dummy DUmmy dummy dummy DUmmy dummy dummy DUmmy dummy dummy DUmmy dummy dummy
       </p>
-
-      <Button styles={`mt-10`} />
+      {/* <Button styles={`mt-10`}  /> */}
+   
+  <a href="/Contact" class="px-6 py-3 text-blue-100 no-underline bg-blue-500 rounded hover:bg-blue-600 hover:underline hover:text-blue-200">Contact Us</a>
+   
     </div>
 
     <div className={`${layout.sectionImg} flex-col`}>
@@ -38,6 +43,8 @@ const Business = () =>  (
       ))}
     </div>
   </section>
+  </>
 );
+};
 
 export default Business;

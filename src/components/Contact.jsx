@@ -20,6 +20,7 @@ setUserData({... userData,[name]:value});
   const submitData =(event)=>{
 event.preventDefault();
 const  {name,phone,email,income,pan}=userData;
+if(name&&phone&&email&&income&&pan){
 const res =fetch(
 "https://finages-f4aaa-default-rtdb.firebaseio.com/userDataRecords.json",
 {
@@ -46,6 +47,10 @@ if(res){
 }
 else{
     alert("fill again");
+}
+}
+else{
+    alert("Please Fill the Data");
 }
 }
     return (

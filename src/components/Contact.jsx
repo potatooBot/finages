@@ -60,10 +60,10 @@ const Contact= () => {
 
                       <div>
                           <label className="font-medium">
-                          Pan Number
+                          Pan Number(Optional)
                           </label>
                           <input
-                              type="number"
+                              type="text"
                               placeholder="XXXXXXXXXX"
                               required
                               className="w-full mt-2 px-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-gray-800 shadow-sm rounded-lg"

@@ -21,7 +21,7 @@ const FeatureCard = ({ icon, title, content, index }) => (
 const Business = () =>  {
 
   return(
-    <>
+    
   <section id="features" className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
@@ -31,9 +31,8 @@ const Business = () =>  {
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
      DUmmy dummy dummy  DUmmy dummy dummy DUmmy dummy dummy DUmmy dummy dummy DUmmy dummy dummy DUmmy dummy dummy
       </p>
-      {/* <Button styles={`mt-10`}  /> */}
-   
-  <a href="/Contact" class="px-6 py-3 text-blue-100 no-underline bg-blue-500 rounded hover:bg-blue-600 hover:underline hover:text-blue-200">Contact Us</a>
+      <Button styles={`mt-10`}  />
+
    
     </div>
 
@@ -43,7 +42,7 @@ const Business = () =>  {
       ))}
     </div>
   </section>
-  </>
+ 
 );
 };
 

@@ -1,6 +1,6 @@
 import styles from "./style";
 import { Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Hero,Contact } from "./components";
-// import {BrowserRouter,Routes,Route} from "react-router-dom";
+
 
 const App = () => (
 
@@ -25,14 +25,11 @@ const App = () => (
         <Business />
         <CardDeal/>
     <Contact/>
+    <CTA/>
     <Footer/>
       </div>
     </div>
-    {/* <BrowserRouter>
-  <Routes>
-  <Route exact path="/Contact" element={<Contact/>}/>
- </Routes>
-  </BrowserRouter> */}
+
   </div>
   
 

@@ -22,8 +22,8 @@ export const navLinks = [
     title: "Business",
   },
   {
-    id: "Carrier",
-    title: "Carrier",
+    id: "CTA",
+    title: "Career",
   },
 ];
 

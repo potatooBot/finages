@@ -10,7 +10,7 @@ export const navLinks = [
     title: "Loans",
   },
   {
-    id: "product",
+    id: "Client",
     title: "Credit Card",
   },
   {

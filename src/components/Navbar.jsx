@@ -7,9 +7,13 @@ const Navbar = () => {
   const [active, setActive] = useState("Home");
   const [toggle, setToggle] = useState(false);
 
+
+
+
+
   return (
     <nav className="w-full flex py-10 justify-between items-center navbar">
-      <img src={finages_logo} alt="hoobank" className="w-[180px] h-[40px]" />
+      <img src={finages_logo} alt="hoobank" className="w-[180px] h-[40px] animate-flip-up animate-once animate-delay-1000" />
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (

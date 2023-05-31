@@ -25,7 +25,7 @@ import people02 from "./people02.png";
 import people03 from "./people03.png";
 import finages_logo from "./finages_logo.png";
 import rupee from "./rupee.png";
-
+import sbi from "./sbi.png";
 export {
   airbnb,
   bill,
@@ -50,6 +50,7 @@ export {
   facebook,
   instagram,
   linkedin,
+  sbi,
   twitter,
   people01,
   people02,

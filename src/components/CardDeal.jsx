@@ -6,16 +6,20 @@ const CardDeal = () => (
   <section className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        Find a better card deal <br className="sm:block hidden" /> in few easy
+       Check EMI with our  <span style={{color: 'yellow'}}>EMI Calculator</span>{' '}  <br className="sm:block hidden" /> in few easy
         steps.
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Arcu tortor, purus in mattis at sed integer faucibus. Aliquet quis
-        aliquet eget mauris tortor.ç Aliquet ultrices ac, ametau.
+       Dummy DUMMY DUMMY DUMMY DUMMY DUMMY  
       </p>
 
      
-      <Button styles={`mt-10`} />
+      <a href="https://finages-emi.netlify.app">
+
+<button onClick={() => { window.open("www.google.com") } } type="button" className={`py-4 px-6 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none ${styles}`}>
+Contact Us
+</button>
+</a>
     </div>
 
     <div className={layout.sectionImg}>

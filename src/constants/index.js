@@ -150,7 +150,7 @@ export const footerLinks = [
     links: [
       {
         name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
+        id: "Contact",
       },
       {
         name: "Join Us",

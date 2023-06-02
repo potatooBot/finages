@@ -37,6 +37,7 @@ import future from "./future.png"
 import finnable from "./finnable.png";
 import axis from "./axis.png";
 import aubank from "./aubank.png";
+import emi from "./emi.png";
 export {
   aditya,
   airbnb,
@@ -46,6 +47,7 @@ export {
   card,
   coinbase,
   dropbox,
+  emi,
   logo,
   finages_logo,
   finnable,

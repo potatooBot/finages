@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send,sbi, shield, star  } from "../assets";
+import {aubank, axis,aditya,bandhan,people01, people02, people03, facebook, instagram,finnable, indus, linkedin, twitter, airbnb, binance,icici,scb,future, coinbase, dropbox, send,sbi,hdfc,yes_bank ,shield, star  } from "../assets";
 
 export const navLinks = [
   {
@@ -18,8 +18,8 @@ export const navLinks = [
     title: "Contact Us",
   },
   {
-    id: "business",
-    title: "Business",
+    id: "Partners",
+    title: "Our Partners",
   },
   {
     id: "CTA",
@@ -190,14 +190,43 @@ export const clients = [
   },
   {
     id: "client-2",
-    logo: sbi,
+    logo: hdfc,
   },
   {
     id: "client-3",
-    logo: sbi,
+    logo: yes_bank,
   },
+
   {
     id: "client-4",
-    logo: sbi,
+    logo: indus,
+  },
+  {
+    id: "client-5",
+    logo: icici,
+  },
+  {
+    id: "client-6",
+    logo: aditya,
+  },
+  {
+    id: "client-7",
+    logo: bandhan,
+  },
+  {
+    id: "client-8",
+    logo: scb,
+  },
+  {
+    id: "client-9",
+    logo: future,
+  },
+  {
+    id: "client-9",
+    logo: axis,
+  },
+  {
+    id: "client-9",
+    logo: aubank,
   },
 ];

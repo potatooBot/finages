@@ -43,7 +43,10 @@ if(res){
         income:"",
         pan:"", 
     })
-    alert("Data Stored");
+    
+    
+    alert("Thank You for filling the form.");
+   
 }
 else{
     alert("fill again");

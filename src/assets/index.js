@@ -26,16 +26,32 @@ import people03 from "./people03.png";
 import finages_logo from "./finages_logo.png";
 import rupee from "./rupee.png";
 import sbi from "./sbi.png";
+import hdfc from "./hdfc.png";
+import yes_bank from "./yes_bank.png";
+import indus from "./indus.png";
+import icici from "./icici.png";
+import aditya from "./aditya.png";
+import bandhan from "./bandhan.png"
+import scb from "./scb.png"
+import future from "./future.png"
+import finnable from "./finnable.png";
+import axis from "./axis.png";
+import aubank from "./aubank.png";
 export {
+  aditya,
   airbnb,
   bill,
+  bandhan,
   binance,
   card,
   coinbase,
   dropbox,
   logo,
   finages_logo,
+  finnable,
+  hdfc,
   quotes,
+  future,
   robot,
   rupee,
   send,
@@ -55,4 +71,10 @@ export {
   people01,
   people02,
   people03,
-};
+  yes_bank,
+  indus,
+  icici,
+  scb,
+  axis,
+aubank,
+}

@@ -19,7 +19,7 @@ const CardDeal = () => (
     </div>
 
     <div className={layout.sectionImg}>
-      <img src={rupee} alt="billing" className="w-[80%] h-[80%] animate-fade-right animate-once animate-duration-1000 animate-ease-in" />
+      <img src={rupee} alt="billing" className="w-[80%] h-[80%] animate-fade-right animate-infinite animate-duration-5000 animate-linear" />
     </div>
   </section>
 );

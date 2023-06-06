@@ -2,8 +2,36 @@ import {aubank, axis,aditya,bandhan,people01, people02, people03, facebook, inst
 
 export const navLinks = [
   {
+    id: "/",
+    title: "Home",
+    
+  },
+  {
+    id: "features",
+    title: "Loans",
+  },
+  {
+    id: "Credit",
+    title: "Credit Card",
+  },
+  {
+    id: "Contact",
+    title: "Contact Us",
+  },
+  {
+    id: "Partners",
+    title: "Our Partners",
+  },
+  {
+    id: "CTA",
+    title: "Career",
+  },
+];
+export const navLinks2 = [
+  {
     id: "home",
     title: "Home",
+    
   },
   {
     id: "features",

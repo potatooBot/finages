@@ -3,6 +3,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import "./casousel.css";
 import styles from "../style";
+import { layout } from "../style";
 import Button from "./Button";
 import { axis_cred_card,sbi,sbi_card } from "../assets";
 const responsive = {
@@ -53,8 +54,21 @@ const sliderImageUrl = [
   }
 ];
 const Slider = () => {
-  return (
-    <div className="parent">
+  return <>
+    <div className={layout.sectionInfo} id="Credit">
+      <h2 className={styles.heading2}>
+       Credit Card Services
+      </h2>
+      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+      As of today, credit cards are critical tools that empower a person to acquire goods, 
+      and avail of services with the comfort of making payments for those purchases on another date.
+      
+
+      </p>
+      <a href="https://finages-emi.netlify.app">
+</a>
+    </div>
+    <div  className="parent">
 
       <Carousel
         responsive={responsive}
@@ -78,13 +92,11 @@ Apply
   </a>
             </div>
           );
-      
         })}
       </Carousel>
-  
- 
     </div>
-    
-  );
+
+  </>
+
 };
 export default Slider;

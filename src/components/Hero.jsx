@@ -69,7 +69,7 @@ const Hero = () => {
       <Billing/>
        <CardDeal/>
        <CTA/>
-       <CreditCard/>
+       {/* <CreditCard/> */}
        <Testimonials/>
        <Clients/>
        <Contact/>

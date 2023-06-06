@@ -12,7 +12,7 @@ return (
 <div className="bg-primary w-full overflow-hidden">
     <div className={`${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
-        <Navbar />
+        <Navbar /> 
       </div>
     </div>
     </div>
@@ -30,6 +30,13 @@ return (
      <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
 <Contact/>
+      </div>
+      </div>
+}/>
+  <Route path="/Partners" element={
+     <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
+      <div className={`${styles.boxWidth}`}>
+<Clients/>
       </div>
       </div>
 }/>

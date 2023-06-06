@@ -4,6 +4,7 @@ import Button from "./Button";
 import { useNavigate } from "react-router-dom";
 import { navLinks } from "../constants";
 import Contact from "./Contact";
+import Footer from "./Footer";
 const FeatureCard = ({ icon, title, content, index }) => (
   <div className={`flex flex-row p-6 rounded-[20px] ${index !== features.length - 1 ? "mb-6" : "mb-0"} feature-card`}>
     <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue`}>
@@ -20,8 +21,7 @@ const FeatureCard = ({ icon, title, content, index }) => (
   </div>
 );
 const Business = () =>  {
-
-  return(
+  return<>
     
   <section id="features" className={layout.section}>
     <div className={layout.sectionInfo}>
@@ -53,8 +53,8 @@ const Business = () =>  {
       ))}
     </div>
   </section>
- 
-);
+
+</>
 };
 
 export default Business;

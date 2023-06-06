@@ -73,7 +73,7 @@ const Slider = () => {
               <a href="/Contact">
 
               <button key={index} type="button" className={` mx-20 my-10 slider py-4 px-5  font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none ${styles}`}>
-  Contact Us
+Apply
   </button>
   </a>
             </div>

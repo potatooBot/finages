@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./index.html", "./src/**/*.{js,jsx}"] ,
+  content: ["./index.html", "./src/**/*.{js,jsx}",
+  "./node_modules/flowbite/**/*.js"] ,
   mode: "jit",
   theme: {
     extend: {
@@ -25,6 +26,7 @@ module.exports = {
   },
   plugins: [ require('@tailwindcss/forms'),
   require('tailwindcss-animated'),
+  require('flowbite/plugin')
 
 ],
 };

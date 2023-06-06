@@ -69,10 +69,11 @@ const Hero = () => {
       <Billing/>
        <CardDeal/>
        <CTA/>
+       <CreditCard/>
        <Testimonials/>
        <Clients/>
        <Contact/>
-       <CreditCard/>
+
       <Footer/>  
 
       </div>

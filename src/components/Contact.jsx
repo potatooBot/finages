@@ -1,5 +1,7 @@
 import Datepicker from 'flowbite-datepicker/Datepicker';
 import { useState } from 'react';
+import { emi } from '../assets';
+import { axis,aubank } from '../assets';
 
 const Contact= () => {
   const [userData,setUserData]=useState({
@@ -134,7 +136,6 @@ else{
                               placeholder="XXXXXXXXXX"
                               value={userData.pan}
                               onChange={postUserData}
-                              required
                               className="w-full mt-2 px-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-gray-800 shadow-sm rounded-lg"
                           />
                       </div>
@@ -178,7 +179,8 @@ onChange={postUserData}k:text-gray dark:focus:ring-blue-500 dark:focus:border-bl
                   </form>
               </div>
           </div>
-          <div className='absolute inset-0 blur-[118px] max-w-lg h-[800px] mx-auto sm:max-w-3xl sm:h-[400px]' style={{ background: "linear-gradient(106.89deg, rgba(192, 132, 252, 0.11) 15.73%, rgba(14, 165, 233, 0.41) 15.74%, rgba(232, 121, 249, 0.26) 56.49%, rgba(79, 70, 229, 0.4) 115.91%)" }}></div>
+        
+
       </main>
   )
 }

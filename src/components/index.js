@@ -10,6 +10,7 @@ import Testimonials from "./Testimonials";
 import Hero from "./Hero";
 import Contact from "./Contact"
 import Apply from "./Apply";
+import CreditCard from "./CreditCard";
 
 
 
@@ -25,5 +26,6 @@ export {
   Testimonials,
   Hero,
   Contact,
-Apply
+Apply,
+CreditCard
 };

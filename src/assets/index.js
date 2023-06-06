@@ -38,7 +38,11 @@ import finnable from "./finnable.png";
 import axis from "./axis.png";
 import aubank from "./aubank.png";
 import emi from "./emi.png";
+import axis_cred_card from "./axis_cred_card.png"
+import sbi_card from "./sbi_card.png"
 export {
+  axis_cred_card,
+  sbi_card,
   aditya,
   airbnb,
   bill,

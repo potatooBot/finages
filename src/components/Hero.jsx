@@ -1,9 +1,19 @@
 import styles from "../style";
 import { discount, robot } from "../assets";
 import GetStarted from "./GetStarted";
-
+import { stats } from "../constants";
+import Stats from "./Stats";
+import Business from "./Business";
+import CTA from "./CTA";
+import Footer from "./Footer";
+import CardDeal from "./CardDeal";
+import Testimonials from "./Testimonials";
+import Clients from "./Clients";
+import Billing from "./Billing";
+import Contact from "./Contact";
+import CreditCard from "./CreditCard";
 const Hero = () => {
-  return (
+  return <>
     <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
       <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
         <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2 animate-jump-in animate-once animate-delay-500">
@@ -49,8 +59,28 @@ const Hero = () => {
       <GetStarted />
       </a> 
       </div>
+
     </section>
-  );
+    <div className="bg-primary w-full overflow-hidden">
+    <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
+      <div className={`${styles.boxWidth}`}>
+      <Stats/>
+      <Business/>
+      <Billing/>
+       <CardDeal/>
+       <CTA/>
+       <Testimonials/>
+       <Clients/>
+       <Contact/>
+       <CreditCard/>
+      <Footer/>  
+
+      </div>
+</div>
+  </div>
+        
+  
+  </>
 };
 
 export default Hero;

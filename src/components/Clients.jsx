@@ -10,7 +10,9 @@ const Clients = () => (
         </div>
       ))}
     </div>
+  
   </section>
+  
 );
 
 export default Clients;

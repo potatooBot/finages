@@ -6,22 +6,24 @@ import styles from "../style";
 import Button from "./Button";
 import { axis_cred_card,sbi,sbi_card } from "../assets";
 const responsive = {
-  desktop: {
-    breakpoint: { max: 3000, min: 1024 },
-    items: 4,
-    slidesToSlide: 4 // optional, default to 1.
-  },
-  tablet: {
-    breakpoint: { max: 1024, min: 768 },
-    items: 3,
-    slidesToSlide: 3 // optional, default to 1.
-  },
-  mobile: {
-    breakpoint: { max: 1000, min: 464 },
-    items: 3,
-    slidesToSlide: 2 // optional, default to 1.
-  }
-};
+    superLargeDesktop: {
+      // the naming can be any, depends on you.
+      breakpoint: { max: 4000, min: 3000 },
+      items: 5
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 3
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 2
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1
+    }
+  };
 const sliderImageUrl = [
   //First image url
   {

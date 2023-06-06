@@ -3,7 +3,7 @@ import styles, { layout } from "../style";
 import Button from "./Button";
 
 const CardDeal = () => (
-  <section className={layout.section}>
+  <section className={layout.section} id="EMI">
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
        Check EMI with our  <span style={{color: 'yellow'}}>EMI Calculator</span>{' '}  <br className="sm:block hidden" /> in few easy

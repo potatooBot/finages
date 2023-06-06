@@ -102,8 +102,8 @@ export const footerLinks = [
     title: "Useful Links",
     links: [
       {
-        name: "Content",
-        link: "https://www.hoobank.com/content/",
+        name: "EMI Calculator",
+        id: "EMI",
       },
       {
         name: "How it Works",
@@ -150,7 +150,7 @@ export const footerLinks = [
     links: [
       {
         name: "Our Partner",
-        id: "Contact",
+        id: "Partners",
       },
       {
         name: "Join Us",

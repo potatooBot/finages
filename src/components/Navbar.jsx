@@ -49,8 +49,8 @@ const Navbar = () => {
                 className={`font-poppins font-medium cursor-pointer text-[16px] ${
                   active === nav.title ? "text-white" : "text-dimWhite"
                 } ${index === navLinks.length - 1 ? "mb-0" : "mb-4"}`}  
-                onClick={() => setActive(nav.title)}
-              >
+                onClick={() => setActive(nav.title)}>
+                
                 <a href={`#${nav.id}`}>{nav.title}</a>
               </li>
             ))}

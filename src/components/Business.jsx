@@ -2,6 +2,7 @@ import { features } from "../constants";
 import styles, { layout } from "../style";
 import Button from "./Button";
 import { useNavigate } from "react-router-dom";
+import { navLinks } from "../constants";
 import Contact from "./Contact";
 const FeatureCard = ({ icon, title, content, index }) => (
   <div className={`flex flex-row p-6 rounded-[20px] ${index !== features.length - 1 ? "mb-6" : "mb-0"} feature-card`}>
@@ -31,13 +32,19 @@ const Business = () =>  {
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
      DUmmy dummy dummy  DUmmy dummy dummy DUmmy dummy dummy DUmmy dummy dummy DUmmy dummy dummy DUmmy dummy dummy
       </p>
-    
-<button onClick={() => window.open("https://www.google.com")} type="button" className={`py-4 my-4 px-6 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none ${styles}`}>
-Contact Us
-</button>
+      <a >
 
-
-   
+     
+      <button onClick={(e)=>{
+        e.preventDefault();
+        window.scrollTo({
+          top:document.querySelector("#Contact").offsetTop,
+          behavior:"smooth",
+        });
+      }} type="button" className={`py-4 px-6 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none ${styles}`}>
+  Contact Us
+  </button>
+  </a>
     </div>
 
     <div className={`${layout.sectionImg} flex-col`}>

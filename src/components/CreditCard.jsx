@@ -17,9 +17,9 @@ const responsive = {
     slidesToSlide: 3 // optional, default to 1.
   },
   mobile: {
-    breakpoint: { max: 767, min: 464 },
-    items: 2,
-    slidesToSlide: 1 // optional, default to 1.
+    breakpoint: { max: 1000, min: 464 },
+    items: 3,
+    slidesToSlide: 2 // optional, default to 1.
   }
 };
 const sliderImageUrl = [
@@ -75,7 +75,6 @@ const Slider = () => {
   </button>
   </a>
             </div>
-            
           );
       
         })}

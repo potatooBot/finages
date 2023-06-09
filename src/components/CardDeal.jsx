@@ -23,7 +23,7 @@ Contact Us
     </div>
 
     <div className={layout.sectionImg}>
-      <img src={rupee} alt="billing" className="w-[80%] h-[80%] animate-fade-right animate-infinite animate-duration-5000 animate-linear" />
+      <img src={rupee} alt="billing" className="w-[80%] h-[80%] animate-bounce animate-infinite animate-duration-[2000ms]" />
     </div>
   </section>
 );

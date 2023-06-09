@@ -11,7 +11,7 @@ const CTA = () => (
     </div>
 
    
-    <button onClick={() => window.open("https://www.paisabazaar.com/credit-score/cibil-score-calculation/")} type="button" className={`py-4 my-4 px-6 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none ${styles}`}>
+    <button onClick={() => window.open("/")} type="button" className={`py-4 my-4 px-6 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none ${styles}`}>
 CALCULATE
 </button>
 

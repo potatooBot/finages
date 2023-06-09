@@ -6,6 +6,7 @@ import styles from "../style";
 import { layout } from "../style";
 import Button from "./Button";
 import { axis_cred_card,sbi,sbi_card } from "../assets";
+import Footer from "./Footer";
 const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
@@ -53,22 +54,22 @@ const sliderImageUrl = [
       sbi_card
   }
 ];
-const Slider = () => {
-  return <>
-    <div className={layout.sectionInfo} id="Credit">
-      <h2 className={styles.heading2}>
-       Credit Card Services
-      </h2>
-      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-      As of today, credit cards are critical tools that empower a person to acquire goods, 
-      and avail of services with the comfort of making payments for those purchases on another date.
-      
+const CreditCard = () => {
 
-      </p>
-      <a href="https://finages-emi.netlify.app">
-</a>
-    </div>
-    <div  className="parent">
+  return <>
+    <div className={layout.sectionInfo}>
+    <h2 className={styles.heading2}>
+      Credit Card Services
+    </h2>
+    <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+      As of today, credit cards are critical tools that empower a person to acquire goods,
+      and avail of services with the comfort of making payments for those purchases on another date.
+
+
+    </p>
+    <a href="https://finages-emi.netlify.app">
+    </a>
+  </div><div id="Credit" className="parent">
 
       <Carousel
         responsive={responsive}
@@ -85,18 +86,18 @@ const Slider = () => {
             <div className="slider" key={index}>
               <img src={imageUrl.url} alt="movie" />
               <a href="/Contact">
-
-              <button key={index} type="button" className={` mx-20 my-10 slider py-4 px-5  font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none ${styles}`}>
-Apply
-  </button>
-  </a>
+              <div class="flex justify-center">
+                <button key={index} type="button" className={` my-10 slider py-4 px-5  font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none ${styles}`}>
+                  Apply
+                </button>
+                </div>
+              </a>
             </div>
           );
         })}
       </Carousel>
     </div>
-
-  </>
-
+    <Footer/>
+    </>
 };
-export default Slider;
+export default CreditCard;

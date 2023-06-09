@@ -8,11 +8,11 @@ const Footer = () => (
       <div className="flex-[1] flex flex-col justify-start mr-10">
         <img
           src={finages_logo}
-          alt="hoobank"
+          alt="Finages"
           className="w-[266px] h-[72.14px] object-contain"
         />
-        <p className={`${styles.paragraph} mx-10 mt-4 max-w-[312px]`}>
-          A new way to get easy, reliable and secure loans.
+        <p className={`${styles.paragraph} mt-4 max-w-[312px]`}>
+          A new way to make the payments easy, reliable and secure.
         </p>
       </div>
 
@@ -25,19 +25,14 @@ const Footer = () => (
             <ul className="list-none mt-4">
               {footerlink.links.map((link, index) => (
                 <li
-                  key={link.name}
+                  key={link.link}
                   className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer ${
                     index !== footerlink.links.length - 1 ? "mb-4" : "mb-0"
                   }`}
-                  onClick={() => setActive(link.name)} >
-                      <a onClick={(e)=>{
-        e.preventDefault();
-        window.scrollTo({
-          top:document.querySelector(`#${link.id}`).offsetTop,
-          behavior:"smooth",
-        });
-      }} >{link.name}</a>
-                  {/* {link.name} */}
+                  onClick={() => setActive(link.name)}
+                >
+                   <a href={`${link.link}`}>{link.name}</a>
+                 
                 </li>
               ))}
             </ul>
@@ -48,7 +43,7 @@ const Footer = () => (
 
     <div className="w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#3F3E45]">
       <p className="font-poppins font-normal text-center text-[18px] leading-[27px] text-white">
-        Copyright Ⓒ 2023 Finages Distrubution. All Rights Reserved.
+        Copyright Ⓒ 2023 Finages. All Rights Reserved.
       </p>
 
       <div className="flex flex-row md:mt-0 mt-6">
@@ -66,7 +61,6 @@ const Footer = () => (
       </div>
     </div>
   </section>
-
 );
 
 export default Footer;

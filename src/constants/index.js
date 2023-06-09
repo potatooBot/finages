@@ -7,23 +7,21 @@ export const navLinks = [
     
   },
   {
-    id: "features",
+    id: "Credit",
     title: "Loans",
   },
-  {
-    id: "Credit",
-    title: "Credit Card",
-  },
-  {
-    id: "Contact",
-    title: "Contact Us",
-  },
+  
   {
     id: "Partners",
     title: "Our Partners",
   },
   {
-    id: "CTA",
+    id: "Contact",
+    title: "Contact Us",
+  },
+
+  {
+    id: "https://forms.gle/ZeshEuEHbmAgZAnf9",
     title: "Career",
   },
 ];
@@ -36,10 +34,6 @@ export const navLinks2 = [
   {
     id: "features",
     title: "Loans",
-  },
-  {
-    id: "Client",
-    title: "Credit Card",
   },
   {
     id: "Contact",
@@ -131,11 +125,11 @@ export const footerLinks = [
     links: [
       {
         name: "EMI Calculator",
-        id: "EMI",
+        link: "https://finages-emi.netlify.app",
       },
       {
         name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
+        link: "https://forms.gle/ZeshEuEHbmAgZAnf9",
       },
       {
         name: "Create",
@@ -151,38 +145,17 @@ export const footerLinks = [
       },
     ],
   },
-  // {
-  //   title: "Community",
-  //   links: [
-  //     {
-  //       name: "Help Center",
-  //       link: "https://www.hoobank.com/help-center/",
-  //     },
-  //     {
-  //       name: "Partners",
-  //       link: "https://www.hoobank.com/partners/",
-  //     },
-  //     {
-  //       name: "Suggestions",
-  //       link: "https://www.hoobank.com/suggestions/",
-  //     },
-  //     {
-  //       name: "Blog",
-  //       link: "https://www.hoobank.com/blog/",
-  //     },
-   
-  //   ],
-  // },
+
   {
     title: "Partner",
     links: [
       {
         name: "Our Partner",
-        id: "Partners",
+        link: "Partners",
       },
       {
         name: "Join Us",
-        link: "https://www.hoobank.com/become-a-partner/",
+        link: "https://forms.gle/ZeshEuEHbmAgZAnf9",
       },
     ],
   },

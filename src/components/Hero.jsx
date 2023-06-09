@@ -12,6 +12,7 @@ import Clients from "./Clients";
 import Billing from "./Billing";
 import Contact from "./Contact";
 import CreditCard from "./CreditCard";
+
 const Hero = () => {
   return <>
     <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
@@ -68,12 +69,9 @@ const Hero = () => {
       <Business/>
       <Billing/>
        <CardDeal/>
-       <CTA/>
-       {/* <CreditCard/> */}
        <Testimonials/>
        <Clients/>
        <Contact/>
-
       <Footer/>  
 
       </div>

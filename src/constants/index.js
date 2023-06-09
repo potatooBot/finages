@@ -8,12 +8,12 @@ export const navLinks = [
   },
   {
     id: "Credit",
-    title: "Loans",
+    title: "Credit Cards",
   },
   
   {
     id: "Partners",
-    title: "Our Partners",
+    title: "Loans",
   },
   {
     id: "Contact",

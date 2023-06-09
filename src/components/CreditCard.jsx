@@ -83,8 +83,11 @@ const CreditCard = () => {
       >
         {sliderImageUrl.map((imageUrl, index) => {
           return (
-            <div className="slider" key={index}>
-              <img src={imageUrl.url} alt="movie" />
+            <div className="slider max-w-xs transition duration-300 ease-in-out hover:scale-110 animate-jump-in animate-infinite animate-duration-[5000ms]" key={index}>
+             <a href="/Contact">
+
+             <img  src={imageUrl.url} alt="movie" />
+             </a>
               <a href="/Contact">
               <div class="flex justify-center">
                 <button key={index} type="button" className={` my-10 slider py-4 px-5  font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none ${styles}`}>

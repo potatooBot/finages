@@ -67,7 +67,7 @@ else{
                      Finages 24 x 7
                   </h3>
                   <p className="text-white text-3xl font-semibold sm:text-4xl">
-                  Apply here for assistance
+                  Reach to Finages
                   </p>
                   <p className="text-gray-300">
                       We’d love to help you out.
@@ -86,6 +86,7 @@ else{
                           name="name"
                               type="text"
                               required
+                              placeholder='Gurdeep Singh'
                               className="w-full mt-2 px-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-gray-800 shadow-sm rounded-lg"
                           value={userData.name}
                           onChange={postUserData}
@@ -139,8 +140,22 @@ else{
                               className="w-full mt-2 px-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-gray-800 shadow-sm rounded-lg"
                           />
                       </div>
+                      
                       <div>
-                          <label className="font-large">
+                          <label className="font-medium">
+                         Card You Applying For
+                          </label>
+                          <input
+                              type="text"
+                              name="Card"
+                              placeholder="Eg :SBI,HDFC"
+                              value={userData.pan}
+                              onChange={postUserData}
+                              className="w-full mt-2 px-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-gray-800 shadow-sm rounded-lg"
+                          />
+                      </div>
+                      <div>
+                          <label className="font-medium">
                               Phone number
                           </label>
                           <div className="relative mt-2">
@@ -158,9 +173,13 @@ else{
                       
 
         {/* <label for="countries" class="block mb-2  text-sm font-medium text-gray-900 dark:text-Black">Occupation</label> */}
+        <label className="font-medium">
+                        Occupation
+                          </label>
 <select id="countries" class="bg-black-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-white-700 dark:border-gray-600 dark:placeholder-gray-400 dar
 value={userData.name}
 onChange={postUserData}k:text-gray dark:focus:ring-blue-500 dark:focus:border-blue-500">
+
   <option selected>Select Occupation</option>
   <option value="US">Salaried</option>
   <option value="CA">Self Employed</option>
